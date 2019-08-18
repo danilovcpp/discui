@@ -1,0 +1,8 @@
+@each $color, $value in $theme-colors {
+    .alert-#{$color} {
+        //@include alert-variant(theme-color-level($color, $alert-bg-level), theme-color-level($color, $alert-border-level), theme-color-level($color, $alert-color-level));
+        background-color: $value;
+        border-color: darken($value, 15%);
+        color: #fff;
+    }
+}

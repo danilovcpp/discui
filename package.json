@@ -1,0 +1,20 @@
+{
+  "name": "dicsui",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/danilovcpp/dicsui.git",
+  "author": "danilovcpp <danilov.cpp@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "copy-bootstrap": "rimraf scss/bootstrap && copyfiles -a \"node_modules/bootstrap/scss/**/*\" -u 3 scss/bootstrap",
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/discui.scss dist/css/discui.css"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.1.1",
+    "node-sass": "^4.12.0",
+    "rimraf": "^3.0.0"
+  }
+}
