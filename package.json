@@ -1,8 +1,8 @@
 {
-  "name": "dicsui",
+  "name": "discui",
   "version": "0.0.1",
   "main": "index.js",
-  "repository": "https://github.com/danilovcpp/dicsui.git",
+  "repository": "https://github.com/danilovcpp/discui.git",
   "author": "danilovcpp <danilov.cpp@gmail.com>",
   "license": "MIT",
   "scripts": {
