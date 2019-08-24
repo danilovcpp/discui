@@ -8,7 +8,8 @@
   "scripts": {
     "copy-bootstrap": "rimraf scss/bootstrap && copyfiles -a \"node_modules/bootstrap/scss/**/*\" -u 3 scss/bootstrap",
     "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/discui.scss dist/css/discui.css",
-    "js-compile": "rollup --environment BUNDLE:false --config build/rollup.config.js --sourcemap"
+    "js-compile": "rollup --environment BUNDLE:false --config build/rollup.config.js --sourcemap",
+    "increment-version": "node build/increment-version.js patch"
   },
   "dependencies": {
     "bootstrap": "^4.3.1"
@@ -30,7 +31,8 @@
     "rollup": "^1.15.4",
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-commonjs": "^10.0.0",
-    "rollup-plugin-node-resolve": "^5.0.2"
+    "rollup-plugin-node-resolve": "^5.0.2",
+    "semver": "^6.3.0"
   },
   "peerDependencies": {
     "jquery": "1.9.1 - 3",
