@@ -2,7 +2,7 @@
     @include avatar($avatar-width,$avatar-status-width);
   
     > img {
-      @extend .img-avatar;
+      //@extend .img-avatar;
       vertical-align: initial;
     }
   }

@@ -1,7 +1,10 @@
-// override Boostrap variables
-@import "variables/colors";
+// Override Boostrap variables
+@import "variables";
 
 @import "bootstrap/bootstrap";
+
+// mixins
+@import "mixins";
 
 // animations
 @import "animate";
