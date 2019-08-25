@@ -1,6 +1,6 @@
 {
   "name": "discui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "repository": "https://github.com/danilovcpp/discui.git",
   "author": "danilovcpp <danilov.cpp@gmail.com>",
